@@ -22,33 +22,6 @@ Order History: View previous orders for a customer.
 
 Exception Handling: Handle invalid quantities and products that are not available.
 
-Project Structure
-
-ecommerce2
-│
-├── src/main/java
-│   ├── nykaa/ecommerce2
-│   │   └── EcommerceApplication.java
-│   │
-│   └── com/ecommerce2
-│       ├── services
-│       │   ├── DBConnection.java
-│       │   ├── CustomerService.java
-│       │   ├── ProductServices.java
-│       │   ├── CartService.java
-│       │   ├── OrderService.java
-│       │   └── OrderHistory.java
-│       │
-│       └── exceptions
-│           ├── InvalidQuantityException.java
-│           └── ProductNotFoundException.java
-│
-├── src/test/java
-│   └── JUnit Test Classes
-│
-├── pom.xml
-└── README.md
-
 Database Tables
 
 The application uses MySQL with the following tables:
